@@ -1,0 +1,11 @@
+<h1>Questions#answer</h1>
+<form action="/answer" method="get">
+  <input type="text" name="user_type" placeholder="Write here">
+  <input type="submit" value="Ask!">
+</form>
+
+<p><%= @answer %></p>
+<%= link_to "Restart", answer_path %>
+
+<p>Find me in app/views/questions/answer.html.erb</p>
+
